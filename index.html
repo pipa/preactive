@@ -16,12 +16,11 @@
     <link rel="stylesheet" href="styles/carousel.css" />
   </head>
   <body>
-    <main role="main">
+    <main id="main" role="main">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -59,30 +58,14 @@
             </svg>
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1>Welcome to PreActive</h1>
+                <h1>Coming Soon</h1>
                 <p>
-                  The Health Solution for Home and Office Workers
+                  If you are interested, please get in contact using details below!
                 </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <svg
-              class="bd-placeholder-img"
-              width="100%"
-              height="100%"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              role="img"
-            >
-              <rect width="100%" height="100%" fill="#777" />
-            </svg>
-            <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>Welcome to PreActive</h1>
                 <p>
-                  The Health Solution for Home and Office Workers
+                  <button class="btn btn-lg btn-primary scroll-to" role="button" data-scroll-to="#contact-row">
+                    Learn more
+                  </button>
                 </p>
               </div>
             </div>
@@ -112,63 +95,42 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              role="img"
-              aria-label="Placeholder: 140x140"
+            <img
+              src="images/intro-health.png"
+              class="bd-placeholder-img mb-4"
+              width="120"
+              height="120"
+              alt=""
             >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-            </svg>
-            <h2>Problem: New Normal</h2>
+            <h2>Physical Health Screening</h2>
             <p>
-              As home-based work becomes part of the new normal, people will be more exposed to work-related injury risk factors – namely physical inactivity and poor workstation setups. If left unmanaged, the resultant rise in work-related injuries could be devastating for both companies and individuals.
+              By filling in our evidence-based health screening, we gain important insight into one’s physical function and overall exercise capability. This will help us formulate personalised exercise programs for all employees
             </p>
           </div>
           <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              role="img"
-              aria-label="Placeholder: 140x140"
+            <img
+              src="images/intro-exercise.png"
+              class="bd-placeholder-img mb-4"
+              width="120"
+              height="120"
+              alt=""
             >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-            </svg>
-            <h2>Our Solution</h2>
+            <h2>Personalised Exercise Prescription</h2>
             <p>
-              PreActive challenges these risk factors. Through our online, interactive platform, users will have access to physical health screenings with personalised exercise programs, workstation ergonomic guidance, and software that promotes movement throughout the day.
+              The personalised exercise programs include safe and appropriate exercises that can be done both at home and at the office; enabling your team to stay active, move freely and live better
             </p>
           </div>
           <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              role="img"
-              aria-label="Placeholder: 140x140"
+            <img
+              src="images/intro-ergonomics.png"
+              class="bd-placeholder-img mb-4"
+              width="120"
+              height="120"
+              alt=""
             >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-            </svg>
-            <h2>Our Vision</h2>
+            <h2>Workstation Ergonomic Guidance</h2>
             <p>
-              Our vision is to improve the health of employees, and by doing so, reduce the financial strain on companies and improve the overall quality of life of our society.
+              Based on what equipment one has available, we provide a visual representation of the most optimal ergonomic set-up, plus recommendations for equipment that could improve the workstation
             </p>
           </div>
         </div>
@@ -182,7 +144,7 @@
               <span class="text-muted">New Normal</span>
             </h2>
             <p class="lead">
-              As home-based work becomes part of the new normal, people will be more exposed to work-related injury risk factors – namely physical inactivity and poor workstation setups. If left unmanaged, the resultant rise in work-related injuries could be devastating for both companies and individuals.
+              As home-based work becomes part of the new normal, people will be more exposed to work-related injury risk factors – namely physical inactivity and poor workstation setups. If left unmanaged, the resultant rise in work-related injuries could be devastating for both companies and individuals
             </p>
           </div>
           <div class="col-md-5">
@@ -205,7 +167,7 @@
               <span class="text-muted">Solution</span>
             </h2>
             <p class="lead">
-              PreActive challenges these risk factors. Through our online, interactive platform, users will have access to physical health screenings with personalised exercise programs, workstation ergonomic guidance, and software that promotes movement throughout the day.
+              PreActive challenges these risk factors. Through our online, interactive platform, users will have access to physical health screenings with personalised exercise programs, workstation ergonomic guidance, and software that promotes movement throughout the day
             </p>
           </div>
           <div class="col-md-5 order-md-1">
@@ -228,7 +190,7 @@
               <span class="text-muted">Vision</span>
             </h2>
             <p class="lead">
-              PreActive challenges these risk factors. Through our online, interactive platform, users will have access to physical health screenings with personalised exercise programs, workstation ergonomic guidance, and software that promotes movement throughout the day.
+              Our vision is to improve the health of employees, and by doing so, reduce the financial strain on companies and improve the overall quality of life of our society
             </p>
           </div>
           <div class="col-md-5">
@@ -244,15 +206,13 @@
 
         <hr class="featurette-divider" />
 
-        <div class="row featurette">
+        <div id="contact-row" class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading" style="margin-top: 0;">
               Contact Us
             </h2>
             <p class="lead">
-              By calling at
-              <a href="tel+31628735744">+31 (0)628 735 744</a>
-              or filling the form below
+              Send us an <a href="mailto:info@pre-active.com">email</a> or fill in the form below
             </p>
             <form
               action="https://formspree.io/f/mvovbokr"
@@ -285,13 +245,28 @@
 
       <!-- FOOTER -->
       <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
+        <p class="float-right"><a href="#" class="scroll-to" data-scroll-to="#main">Back to top</a></p>
         <p>
           &copy; 2020 PreActive
         </p>
       </footer>
     </main>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script>
+      // scroll to snippet
+      $(document).ready(function() {
+        $(".scroll-to").click(function(evt) {
+          evt.preventDefault();
+          var $scrollToElem = $($(this).data('scroll-to'));
+          $("body,html").animate(
+            {
+              scrollTop: $scrollToElem.offset().top
+            },
+            600
+          );
+        });
+      });
+    </script>
   </body>
 </html>
